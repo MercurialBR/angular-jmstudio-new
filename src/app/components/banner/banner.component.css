@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--back1-color);
+
+  top: -100px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.title {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  text-align: end;
+}
+
+p {
+  margin-bottom: -20px;
+}
+
+.image_main img {
+  width: auto;
+  height: 100%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 99;
+}
+
+.watermark img {
+  opacity: 40%;
+
+  width: auto;
+  height: 100%;
+
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+
+  z-index: 98;
+
+}

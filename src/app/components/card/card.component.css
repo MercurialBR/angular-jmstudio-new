@@ -1,0 +1,41 @@
+.card {
+  margin: -100px 0 0 0;
+  width: 100%;
+  height: 254px;
+  position: relative;
+  background: var(--primary-color);
+  overflow: hidden;
+  line-height: 150%;
+  transition: box-shadow .3s ease-in-out;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+/* Image */
+.card-img {
+  background-image: url("/assets/teste.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform .3s ease-in-out;
+  z-index: 2;
+}
+
+
+/* Texts */
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+/* Hovers */
+.card:hover .card-img {
+  transform: translateY(-3.5em);
+}

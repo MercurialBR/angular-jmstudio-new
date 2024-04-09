@@ -21,6 +21,7 @@
   position: absolute;
   top: 20%;
   left: 20%;
+  z-index: 59;
 }
 
 p {
@@ -28,6 +29,8 @@ p {
 }
 
 .image_main img {
+  pointer-events: none;
+
   width: auto;
   height: 100%;
 
@@ -36,10 +39,12 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  z-index: 99;
+  z-index: 58;
 }
 
 .watermark img {
+  pointer-events: none;
+
   opacity: 40%;
 
   width: auto;
@@ -50,6 +55,6 @@ p {
   left: 55%;
   transform: translate(-50%, -50%);
 
-  z-index: 98;
+  z-index: 57;
 
 }

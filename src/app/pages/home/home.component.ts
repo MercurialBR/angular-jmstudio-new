@@ -4,6 +4,7 @@ import { BannerComponent } from "../components/banner/banner.component";
 import { CardComponent } from "../components/card/card.component";
 import { CursoComponent } from "../components/curso/curso.component";
 import { StudioComponent } from "../components/studio/studio.component";
+import { LocationComponent } from "../components/location/location.component";
 
 
 @Component({
@@ -11,7 +12,7 @@ import { StudioComponent } from "../components/studio/studio.component";
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent]
+    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent]
 })
 export class HomeComponent {
 

@@ -58,3 +58,27 @@ p {
   z-index: 57;
 
 }
+
+@media (min-width: 280px) and (max-width: 1023px) {
+  .container {
+    margin-top: 100px;
+    height: 55vh;
+  }
+  .title {
+    top: 0%;
+    left: 5%;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2rem;
+    margin-bottom: -10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1550px) {
+  .title {
+    left: 5%;
+  }
+}

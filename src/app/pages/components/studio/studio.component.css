@@ -34,20 +34,19 @@
   color: #FFFFFF;
 }
 
-/* Smartphone */
-@media (min-width: 280px) and (max-width: 767px) {
+
+/* Smartphone/tablet */
+@media (min-width: 280px) and (max-width: 1023px) {
   .container {
     height: 40vh;
-    margin:  -15px 0;
   }
   .info_studio {
-    margin-left: 20px;
+    margin-left: 40px;
   }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    margin-top: -50px;
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2rem;
   }
 }

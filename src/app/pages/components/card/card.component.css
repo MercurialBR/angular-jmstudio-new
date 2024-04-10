@@ -45,6 +45,12 @@
 
 
 @media (min-width: 280px) and (max-width: 1023px) {
+  .card {
+    height: 20vh;
+  }
+  .card:hover .card-img {
+    transform: translateY(-4em);
+  }
   p {
     font-size: 1.3rem;
   }

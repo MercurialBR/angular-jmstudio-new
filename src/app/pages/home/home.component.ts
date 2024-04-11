@@ -5,6 +5,7 @@ import { CardComponent } from "../components/card/card.component";
 import { CursoComponent } from "../components/curso/curso.component";
 import { StudioComponent } from "../components/studio/studio.component";
 import { LocationComponent } from "../components/location/location.component";
+import { FooterComponent } from "../components/footer/footer.component";
 
 
 @Component({
@@ -12,7 +13,7 @@ import { LocationComponent } from "../components/location/location.component";
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent]
+    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent, FooterComponent]
 })
 export class HomeComponent {
 

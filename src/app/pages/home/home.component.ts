@@ -13,7 +13,7 @@ import { FooterComponent } from "../components/footer/footer.component";
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent, FooterComponent]
+    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent, FooterComponent,]
 })
 export class HomeComponent {
 

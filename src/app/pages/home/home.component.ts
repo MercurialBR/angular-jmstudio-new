@@ -7,13 +7,15 @@ import { StudioComponent } from "../components/studio/studio.component";
 import { LocationComponent } from "../components/location/location.component";
 import { FooterComponent } from "../components/footer/footer.component";
 
+import { NgOptimizedImage } from '@angular/common';
+
 
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent, FooterComponent,]
+    imports: [NavBarComponent, BannerComponent, CardComponent, CursoComponent, StudioComponent, LocationComponent, FooterComponent, NgOptimizedImage]
 })
 export class HomeComponent {
 

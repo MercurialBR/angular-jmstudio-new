@@ -1,9 +1,9 @@
-.cards {
+.courses {
+  background-color: var(--primary-color);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: px;
-  grid-row-gap: 0px;
 
   width: 100%;
 }
+

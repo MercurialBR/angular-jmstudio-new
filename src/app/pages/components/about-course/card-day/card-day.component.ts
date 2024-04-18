@@ -12,5 +12,14 @@ export class CardDayComponent {
   title = ""
 
   @Input()
-  sub_title = ""
+  sub_title1 = ""
+
+  @Input()
+  sub_title2 = ""
+
+  @Input()
+  sub_title3 = ""
+
+  @Input()
+  sub_title4 = ""
 }

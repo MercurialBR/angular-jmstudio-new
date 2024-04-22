@@ -21,3 +21,7 @@
 
   box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
  }
+
+ p {
+  font-size: 1.8rem;
+ }

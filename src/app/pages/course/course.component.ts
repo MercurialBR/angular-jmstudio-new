@@ -9,13 +9,14 @@ import { FooterComponent } from "../components/footer/footer.component";
 import { AboutCourseComponent } from "../components/about-course/about-course.component";
 import { IncludedCourseComponent } from "../components/included-course/included-course.component";
 import { FloatingButtonComponent } from "../components/floating-button/floating-button.component";
+import { GalleryComponent } from "../components/gallery/gallery.component";
 
 @Component({
     selector: 'app-course',
     standalone: true,
     templateUrl: './course.component.html',
     styleUrl: './course.component.css',
-    imports: [BannerComponent, NavBarComponent, CursoComponent, CardComponent, LocationComponent, ModelCourseComponent, FooterComponent, AboutCourseComponent, IncludedCourseComponent, FloatingButtonComponent]
+    imports: [BannerComponent, NavBarComponent, CursoComponent, CardComponent, LocationComponent, ModelCourseComponent, FooterComponent, AboutCourseComponent, IncludedCourseComponent, FloatingButtonComponent, GalleryComponent]
 })
 export class CourseComponent {
 

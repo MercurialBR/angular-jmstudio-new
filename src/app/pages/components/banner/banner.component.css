@@ -35,8 +35,6 @@ h1 {
 }
 
 .image_main img {
-  pointer-events: none;
-
   width: auto;
   height: 100%;
 

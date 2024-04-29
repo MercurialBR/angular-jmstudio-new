@@ -9,5 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class FooterComponent {
   @Input()
-  image = ""
+  image = "/assets/logo_watermark.webp"
 }

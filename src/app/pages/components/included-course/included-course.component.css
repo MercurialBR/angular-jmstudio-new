@@ -18,3 +18,12 @@
 .container h1 {
   margin-bottom: 25px;
 }
+
+@media (min-width: 280px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}

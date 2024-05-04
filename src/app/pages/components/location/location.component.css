@@ -37,7 +37,10 @@ iframe {
   .title{
     padding: 40px;
   }
-  p {
+  h1 {
     font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
   }
 }

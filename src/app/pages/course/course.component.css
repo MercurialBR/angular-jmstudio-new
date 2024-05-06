@@ -1,33 +1,24 @@
-.courses {
-  background-color: var(--primary-color);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-
-  width: 100%;
-}
-
-
-
 i {
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 600px;
+	height: 750px;
 	overflow: hidden;
 	border-radius: 5px;
 }
 
 i:before, i:after {
 	content: '<';
+  font-size: 2rem;
+  font-weight: 700;
 	position: absolute;
 	top: 50%;
 	left: 1rem;
 	z-index: 2;
 	width: 2rem;
 	height: 2rem;
-	background: var(--primary-color);
-	color: white;
+	background: var(--back1-color);
+	color: var(--primary-color);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -104,4 +95,16 @@ input:checked + input:before {
 
 input:checked + input ~ input:before {
 	display: none;
+}
+
+@media (min-width: 280px) and (max-width: 1023px) {
+  i {
+    height: 400px;
+  }
+  i:before {
+    left: .5rem;
+  }
+  i:after {
+    right: .5rem;
+  }
 }
